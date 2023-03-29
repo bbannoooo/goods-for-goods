@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "b4no"
+version = "0.1.0"
+description = "none"
+authors = ["b4no"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "4.1.7"
+djangorestframework = "3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
